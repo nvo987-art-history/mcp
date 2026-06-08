@@ -1,0 +1,57 @@
+{
+  "name": "MCP.NEXARIUM",
+  "title": "Machine Coordination Protocol Infrastructure",
+  "version": "1.0.0",
+  "status": "experimental",
+  "created": "2026-06-09",
+  "updated": "2026-06-09",
+
+  "description": "MCP.NEXARIUM is an experimental Machine Coordination Protocol infrastructure exploring semantic interoperability, AI agent communication, decentralized identity, machine-readable knowledge systems, and human-AI coordination networks.",
+
+  "founder": {
+    "name": "Nicholas Van-Orton",
+    "did": "did:web:identity.nvo987.us",
+    "website": "https://identity.nvo987.us"
+  },
+
+  "organization": {
+    "name": "NEXARIUM",
+    "website": "https://nexarium.us"
+  },
+
+  "project": {
+    "domain": "mcp.nexarium.us",
+    "url": "https://mcp.nexarium.us",
+    "type": "Machine Coordination Protocol Infrastructure"
+  },
+
+  "principles": [
+    "Semantic Interoperability",
+    "Decentralized Identity",
+    "Knowledge Graphs",
+    "Human-AI Coordination",
+    "Machine Readability",
+    "Cryptographic Verification",
+    "Long-Term Digital Continuity"
+  ],
+
+  "identity": {
+    "primary_did": "did:web:identity.nvo987.us",
+    "identity_authority": "https://identity.nvo987.us"
+  },
+
+  "ecosystem": [
+    "https://nexarium.us",
+    "https://civilizational.nexarium.us",
+    "https://identity.nvo987.us",
+    "https://lab.nvo987.us",
+    "https://fediverse.nvo987.us",
+    "https://valoriquea.nexarium.us",
+    "https://www.kellycode.us"
+  ],
+
+  "contact": {
+    "name": "Nicholas Van-Orton",
+    "email": "contact@nexarium.us"
+  }
+}
