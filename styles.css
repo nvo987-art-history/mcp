@@ -236,7 +236,7 @@ margin-inline:auto;
 
 font-size:clamp(1rem,2vw,1.15rem);
 
-color:var(--muted);
+color:#faf8f2;
 }
 
 .hero-buttons{
