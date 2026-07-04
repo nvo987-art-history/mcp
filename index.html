@@ -1,151 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+ <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>
-MCP.NEXARIUM — Machine Coordination Protocol Infrastructure
-</title>
+<title>MCP.NEXARIUM — Machine Coordination Protocol Infrastructure | NVO987</title>
 
-<meta name="description"
-content="NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history.MCP.NEXARIUM is an experimental Machine Coordination Protocol infrastructure exploring semantic interoperability, AI-agent communication, decentralized identity, machine-readable knowledge systems, and future human–AI coordination networks.">
+<meta name="description" content="NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history. MCP.NEXARIUM is an experimental Machine Coordination Protocol (MCP) infrastructure exploring semantic interoperability, AI agent communication, decentralized identity, machine-readable knowledge systems, and future human–AI coordination networks.">
 
-<meta name="keywords"
-content="MCP, Model Context Protocol, Machine Coordination Protocol, AI Infrastructure, Semantic Web, Decentralized Identity, DID, Human AI Coordination, Knowledge Graph, AI Agents, NEXARIUM">
+<meta name="keywords" content="NVO987, MCP, Machine Coordination Protocol, Model Context Protocol, AI Infrastructure, Artificial Intelligence, AI Agents, Semantic Web, Semantic Infrastructure, Semantic Interoperability, Knowledge Graph, JSON-LD, Linked Data, Decentralized Identity, DID, Human AI Coordination, Machine Readable, NEXARIUM">
 
-<meta name="author"
-content="Nicholas Van-Orton">
+<meta name="author" content="Nicholas Van-Orton">
+<meta name="creator" content="Nicholas Van-Orton">
 
-<meta name="robots"
-content="index, follow">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
-<meta name="theme-color"
-content="#050505">
+<meta name="theme-color" content="#050505">
+<meta name="color-scheme" content="dark">
 
-<meta name="color-scheme"
-content="dark">
+<link rel="canonical" href="https://mcp.nexarium.us/">
 
-<link rel="canonical"
-href="https://mcp.nexarium.us">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="me" href="https://identity.nvo987.us">
 
-<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MCP.NEXARIUM">
+<meta property="og:title" content="MCP.NEXARIUM — Machine Coordination Protocol Infrastructure | NVO987">
+<meta property="og:description" content="Experimental semantic infrastructure for AI agents, decentralized identity, machine-readable knowledge systems, and future human–AI coordination networks.">
+<meta property="og:url" content="https://mcp.nexarium.us/">
+<meta property="og:image" content="https://mcp.nexarium.us/og-image.jpg">
+<meta property="og:locale" content="en_US">
 
-<meta property="og:type"
-content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MCP.NEXARIUM — Machine Coordination Protocol Infrastructure">
+<meta name="twitter:description" content="Experimental semantic infrastructure for AI agents, decentralized identity and interoperable machine-readable ecosystems.">
+<meta name="twitter:image" content="https://mcp.nexarium.us/og-image.jpg">
 
-<meta property="og:site_name"
-content="MCP.NEXARIUM">
+<meta name="did" content="did:web:identity.nvo987.us">
+<meta name="semantic-layer" content="enabled">
+<meta name="ai-compatible" content="true">
+<meta name="machine-readable" content="true">
+<meta name="mcp-endpoint" content="https://mcp.nexarium.us">
 
-<meta property="og:title"
-content="MCP.NEXARIUM — Machine Coordination Protocol Infrastructure">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<meta property="og:description"
-content="Semantic infrastructure for AI agents, machine-readable coordination systems, decentralized identity, and interoperable digital ecosystems.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<meta property="og:url"
-content="https://mcp.nexarium.us">
-
-<meta property="og:image"
-content="https://mcp.nexarium.us/og-image.jpg">
-
-<!-- Twitter -->
-
-<meta name="twitter:card"
-content="summary_large_image">
-
-<meta name="twitter:title"
-content="MCP.NEXARIUM">
-
-<meta name="twitter:description"
-content="Machine Coordination Protocol Infrastructure for future AI-native ecosystems.">
-
-<meta name="twitter:image"
-content="https://mcp.nexarium.us/og-image.jpg">
-
-<!-- Fonts -->
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
-rel="stylesheet">
-
-<!-- CSS -->
-
-<link rel="stylesheet"
-href="styles.css">
-
-<!-- Favicon -->
-
-<link rel="icon"
-type="image/x-icon"
-href="/favicon.ico">
-
-<!-- Identity -->
-
-<link rel="me"
-href="https://identity.nvo987.us">
-
-<meta name="did"
-content="did:web:identity.nvo987.us">
-
-<meta name="creator"
-content="Nicholas Van-Orton">
-
-<meta name="semantic-layer"
-content="enabled">
-
-<meta name="ai-compatible"
-content="true">
-
-<meta name="machine-readable"
-content="true">
-
-<meta name="mcp-endpoint"
-content="https://mcp.nexarium.us">
-
-<!-- JSON-LD -->
+<link rel="stylesheet" href="styles.css">
 
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@graph":[
-
-   {
-     "@type":"Person",
-     "@id":"did:web:identity.nvo987.us",
-     "name":"Nicholas Van-Orton",
-     "url":"https://identity.nvo987.us"
-   },
-
-   {
-     "@type":"WebSite",
-     "name":"MCP.NEXARIUM",
-     "url":"https://mcp.nexarium.us",
-     "description":"Machine Coordination Protocol Infrastructure"
-   },
-
-   {
-     "@type":"Organization",
-     "name":"NEXARIUM",
-     "url":"https://nexarium.us",
-     "founder":{
-       "@id":"did:web:identity.nvo987.us"
-     }
-   }
-
- ]
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Person",
+      "@id":"https://identity.nvo987.us/#person",
+      "name":"Nicholas Van-Orton",
+      "url":"https://identity.nvo987.us",
+      "identifier":"did:web:identity.nvo987.us"
+    },
+    {
+      "@type":"Organization",
+      "@id":"https://nexarium.us/#organization",
+      "name":"NEXARIUM",
+      "url":"https://nexarium.us",
+      "founder":{
+        "@id":"https://identity.nvo987.us/#person"
+      }
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://mcp.nexarium.us/#website",
+      "url":"https://mcp.nexarium.us/",
+      "name":"MCP.NEXARIUM",
+      "description":"Experimental Machine Coordination Protocol infrastructure exploring semantic interoperability, decentralized identity, AI-agent communication, and machine-readable knowledge systems.",
+      "publisher":{
+        "@id":"https://nexarium.us/#organization"
+      },
+      "inLanguage":"en"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://mcp.nexarium.us/#webpage",
+      "url":"https://mcp.nexarium.us/",
+      "name":"MCP.NEXARIUM — Machine Coordination Protocol Infrastructure",
+      "description":"NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history. MCP.NEXARIUM explores semantic interoperability, AI agent communication, decentralized identity, and future human–AI coordination networks.",
+      "isPartOf":{
+        "@id":"https://mcp.nexarium.us/#website"
+      },
+      "about":{
+        "@id":"https://nexarium.us/#organization"
+      },
+      "author":{
+        "@id":"https://identity.nvo987.us/#person"
+      },
+      "inLanguage":"en"
+    }
+  ]
 }
 </script>
 
-</head>
+ </head>
 <body>
 
 <div class="background-glow"></div>
